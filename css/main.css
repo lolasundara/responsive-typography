@@ -20,10 +20,14 @@ html {
 
 article {
   max-width: 43em;
+  margin-left: .25em;
+  margin-right: .25em;
+  font-family: 'Crimson Text', serif;
 }
 
 article h1 {
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 article header {
@@ -32,6 +36,12 @@ article header {
 
 article header p {
   font-style: italic;
+  font-family: 'Crimson Text', serif;
+}
+
+p:first-of-type {
+  margin-top: .0125em;
+  margin-bottom: 1.5em;
 }
 
 article > p:last-child {
@@ -42,6 +52,8 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .quote {
