@@ -41,7 +41,7 @@ article header p {
 
 p:first-of-type {
   margin-top: .0125em;
-  margin-bottom: 1.375em;
+  margin-bottom: 1.3em;
 }
 
 article > p:last-child {
@@ -52,7 +52,7 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
-  margin-left: .25em;
+  margin-left: .3em;
   margin-right: .25em;
 }
 
@@ -63,5 +63,3 @@ blockquote {
 ol {
   padding-left: 1em;
 }
-
-@media only screen and (min-width: 25em)
