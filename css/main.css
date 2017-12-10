@@ -34,13 +34,18 @@ article header {
   border-bottom: 1px solid #999;
 }
 
+article p {
+  margin-top: 1em;
+  margin-left: .3em;
+}
+
 article header p {
   font-style: italic;
   font-family: "Crimson Text", serif;
 }
 
 p:first-of-type {
-  margin-top: .0125em;
+  margin-top: 1em;
   margin-bottom: 1.3em;
 }
 
