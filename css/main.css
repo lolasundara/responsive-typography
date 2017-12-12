@@ -76,6 +76,7 @@ p:nth-child(7) {
 article > p:last-child {
   border-bottom: 1px solid #999;
   padding-bottom: 1.2em;
+  margin-top: 1.2em;
 }
 
 blockquote {
