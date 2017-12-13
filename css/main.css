@@ -21,7 +21,7 @@ html {
 article {
   max-width: 43em;
   margin-left: .25em;
-  margin-right: .25em;
+  margin-right: .3em;
   font-family: "Crimson Text", serif;
 }
 
@@ -100,4 +100,15 @@ article ol {
 
 .quote {
   color: #999;
+}
+
+@media only screen and (min-width: 25em) {
+
+  p:nth-child(3) {
+    margin-bottom: -1.25em;
+  }
+
+  p:nth-child(6) {
+    margin-top: 1em;
+  }
 }
