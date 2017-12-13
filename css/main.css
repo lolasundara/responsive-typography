@@ -120,17 +120,14 @@ article ol {
     margin-left: .25em;
   }
 
-  article p:last-child {
-    margin-bottom: 1.5em;
-  }
-
   p:nth-child(5) {
     line-height: 1.3;
+    margin-right: .5em;
   }
 
   p:nth-child(6) {
-    margin-top: 1.1em;
-    margin-bottom: 1.1em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
   }
 
   li {
@@ -139,5 +136,24 @@ article ol {
 
   li:last-child {
     margin-bottom: 1.3em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  article header {
+    margin-bottom: 1.5em;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+    margin-left: .23em;
+    margin-top: .9em;
+  }
+
+  p:first-of-type {
+    margin-bottom: 1.5em;
+    font-size: 1.1rem;
+    line-height: 1.5;
   }
 }
