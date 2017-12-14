@@ -146,14 +146,42 @@ article ol {
   }
 
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.65rem;
     margin-left: .23em;
     margin-top: .9em;
   }
 
   p:first-of-type {
-    margin-bottom: 1.5em;
+    margin-top: .2em;
+    margin-bottom: 1.35em;
     font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
+  p:nth-child(3) {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
+  p:nth-child(5) {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-top: 1.7em;
+  }
+
+  p:nth-child(6) {
+    font-size: 1.1rem;
+    margin-top: 1.3em;
+  }
+
+  blockquote {
+    margin-top: 2.6em;
+    margin-left: 2.75em;
     line-height: 1.5;
+  }
+
+  li {
+    font-size: 1.1rem;
+    line-height: 1.4;
   }
 }
