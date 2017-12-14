@@ -142,8 +142,8 @@ article ol {
 @media only screen and (min-width: 38em) {
 
   html {
-    font-size: inherit;
-    line-height: normal;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   body {
@@ -198,7 +198,7 @@ article ol {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 1.25rem;
+    font-size: 120%;
     line-height: 1.5;
   }
 
@@ -210,7 +210,7 @@ article ol {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 1.25rem;
+    font-size: 130%;
   }
 
   body {
