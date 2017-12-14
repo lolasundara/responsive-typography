@@ -185,3 +185,14 @@ article ol {
     line-height: 1.4;
   }
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 1.2rem;
+  }
+
+  article {
+    margin-left: 4em;
+  }
+}
